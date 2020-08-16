@@ -1,0 +1,6 @@
+cd build
+cmake .. && make
+./ExtendedKF ../data/obj_pose-laser-radar-synthetic-input.txt ./output.txt
+./ExtendedKF ../data/input1.txt ./output1.txt
+./ExtendedKF ../data/input2.txt ./output2.txt
+./ExtendedKF ../data/input3.txt ./output3.txt
